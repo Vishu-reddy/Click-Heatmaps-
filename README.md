@@ -65,7 +65,7 @@ for x in range(780, 820):
 
 data = filters.gaussian_filter(data, sigma=15)
 
-    </code>
+</code>
   <h3>Plotting</h3>
 
   <pre>The script then calls the plot function to create and display the heatmap.</pre>
