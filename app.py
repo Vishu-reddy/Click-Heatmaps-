@@ -38,5 +38,5 @@ for x in range(780, 820):
 
 # This code applies a gaussian filter to an image
 data = filters.gaussian_filter(data, sigma=15)
-
-plot(data, 'Sample plot', "images\image.png","C:/Users/saduv/shreya_project/output/output")
+path="images\image.png"
+plot(data, 'Sample plot', "image.png",f"C:/Users/saduv/shreya_project/output/output")
